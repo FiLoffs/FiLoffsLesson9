@@ -35,6 +35,15 @@ namespace CalculatorGUI
                 case 4:
                     result = (number2!= 0? (number1 / number2).ToString() : "Division by zero");
                     break;
+                case 5:
+                    result = (number1 != 0 ? Math.Sqrt(number1).ToString() : "Division by zero");
+                    break;
+                case 6:
+                    result = (number2 != 0 ? (number1 % number2).ToString() : "Division by zero");
+                    break;
+                case 7:
+                    result = (number1 != 0 ? (1 / number1).ToString() : "Division by zero");
+                    break;
                 default:
                     break;
             }

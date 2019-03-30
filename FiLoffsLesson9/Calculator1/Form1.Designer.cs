@@ -421,6 +421,7 @@
             this.button25.TabIndex = 31;
             this.button25.Text = "^";
             this.button25.UseVisualStyleBackColor = false;
+            this.button25.Click += new System.EventHandler(this.ChooseOperation);
             // 
             // button27
             // 
@@ -434,6 +435,7 @@
             this.button27.TabIndex = 29;
             this.button27.Text = "%";
             this.button27.UseVisualStyleBackColor = false;
+            this.button27.Click += new System.EventHandler(this.ChooseOperation);
             // 
             // button28
             // 
@@ -447,6 +449,7 @@
             this.button28.TabIndex = 28;
             this.button28.Text = "1/x";
             this.button28.UseVisualStyleBackColor = false;
+            this.button28.Click += new System.EventHandler(this.ChooseOperation);
             // 
             // button29
             // 

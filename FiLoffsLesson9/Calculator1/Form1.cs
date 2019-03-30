@@ -50,6 +50,15 @@ namespace CalculatorGUI
                 case "/":
                     calculatorFormula.OperationCode = 4;
                     break;
+                case "^":
+                    calculatorFormula.OperationCode = 5;
+                    break;
+                case "%":
+                    calculatorFormula.OperationCode = 6;
+                    break;
+                case "1/x":
+                    calculatorFormula.OperationCode = 7;
+                    break;
 
                 default:
                     break;
@@ -131,5 +140,14 @@ namespace CalculatorGUI
             else
                 labelMemory.Visible = false;
         }
+
+        //private void Button25_Click(object sender, EventArgs e)
+        //{
+        //    calculatorFormula.Number1 = Convert.ToDouble(display.Text);
+        //    calculatorFormula.Calculate();
+        //    display.Text = calculatorFormula.Result;
+        //    isSecondNumber = true;
+        //}
+
     }
 }
